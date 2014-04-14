@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\rvmdk\mplayer.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\rvmdk\ustdlib.o"'
+### List of Objects: adding '"..\Library\driverlib\rvmdk\driverlib.lib"'
+### List of Objects: adding '".\rvmdk\mp3driver.o"'
+### List of Objects: adding '".\rvmdk\radio.o"'
+### List of Objects: adding '".\rvmdk\lwiplib.o"'
+### List of Objects: adding '".\rvmdk\httpclient.o"'
+### List of Objects: adding '".\rvmdk\ebook.o"'
+### List of Objects: adding '".\rvmdk\peripheral.o"'
+### List of Objects: adding '".\rvmdk\buttons.o"'
+### List of Objects: adding '".\rvmdk\mmc-ek-lm3s6965.o"'
+### List of Objects: adding '".\rvmdk\ff.o"'
+### List of Objects: adding '".\rvmdk\filesystem.o"'
+### List of Objects: adding '".\rvmdk\windows.o"'
+### List of Objects: adding '".\rvmdk\images.o"'
+### List of Objects: adding '".\rvmdk\graphics.o"'
+### List of Objects: adding '".\rvmdk\rit128x96x4.o"'
+### List of Objects: adding '".\rvmdk\uartstdio.o"'
+### List of Objects: adding '".\rvmdk\gpio.o"'
+### List of Objects: adding '".\rvmdk\mplayer.o"'
+### List of Objects: adding '".\rvmdk\startup_rvmdk.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\rvmdk\ustdlib.o" "D:\Dropbox\mPlayer Project\mPlayer Project\Library\driverlib\rvmdk\driverlib.lib" ".\rvmdk\mp3driver.o" ".\rvmdk\radio.o" ".\rvmdk\lwiplib.o" ".\rvmdk\httpclient.o" ".\rvmdk\ebook.o" ".\rvmdk\peripheral.o" ".\rvmdk\buttons.o" ".\rvmdk\mmc-ek-lm3s6965.o" ".\rvmdk\ff.o" ".\rvmdk\filesystem.o" ".\rvmdk\windows.o" ".\rvmdk\images.o" ".\rvmdk\graphics.o" ".\rvmdk\rit128x96x4.o" ".\rvmdk\uartstdio.o" ".\rvmdk\gpio.o" ".\rvmdk\mplayer.o" ".\rvmdk\startup_rvmdk.o" --library_type=microlib --strict --scatter "sd_card.sct" 
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rvmdk\mplayer.map" -o ".\rvmdk\mplayer.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\rvmdk\mplayer.axf'
+### ADS-LD Command File: '.\rvmdk\mplayer.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\rvmdk\mplayer.lnp', Handle=0x000002DC
+### Writing '.lnp' file
+### ADS-LD Command file '.\rvmdk\mplayer.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

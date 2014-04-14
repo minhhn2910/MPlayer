@@ -1,0 +1,8 @@
+---- W_VOL_AREA Matches (7 in 0 files) ----
+Global.h (mplayer):#define W_VOL_AREA	105
+Windows.c (mplayer):	//RIT128x96x4ImageDraw(pVolume1, W_VOL_AREA-20, 20, 2, 2);
+Windows.c (mplayer):	RIT128x96x4ImageDraw(p18x12, W_VOL_AREA, 10, 18, 12);
+Windows.c (mplayer):		RIT128x96x4ImageDraw(pVolume1, W_VOL_AREA+2, 20, 2, 2);
+Windows.c (mplayer):		RIT128x96x4ImageDraw(pVolume2, W_VOL_AREA+2+4, 18, 2, 4);
+Windows.c (mplayer):		RIT128x96x4ImageDraw(pVolume3, W_VOL_AREA+2+8, 16, 2, 6);
+Windows.c (mplayer):		RIT128x96x4ImageDraw(pVolume4, W_VOL_AREA+2+12, 14, 2, 8);

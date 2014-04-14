@@ -1,0 +1,44 @@
+---- ulMp3FileCount Matches (10 in 4 files) ----
+Ebook.c (mplayer):21
+unsigned long ulMp3FileCount;
+char txt_file_list[MAX_TXT][FILE_NAME_FORMAT+1];
+unsigned long ulTxtFileCount;
+Ebook.c (mplayer):47
+		ulMp3FileCount = 0;
+    ulTxtFileCount = 0;
+    ulDirCount = 0;
+Ebook.c (mplayer):77
+								strcpy(mp3_file_list[ulMp3FileCount],g_sFileInfo.fname);			
+								ulMp3FileCount ++;							
+								if(ulMp3FileCount == MAX_MP3)
+									ulMp3FileCount = 0;	
+						}
+						else if ((strcmp(sub_a, sub_d) == 0)||(strcmp(sub_a, sub_e) == 0))
+Ebook.h (mplayer):47
+extern unsigned long ulMp3FileCount;
+extern char dir_list[MAX_DIR][DIR_NAME_FORMAT+1];
+extern unsigned long ulDirCount;
+mPlayer.c (mplayer):408
+			if(current_position == ulMp3FileCount-1)
+				current_position =0;
+			else
+mPlayer.c (mplayer):417
+			current_position = ulMp3FileCount-1;
+			else
+			current_position--;
+mPlayer.c (mplayer):437
+				if (songListPos<=0) songListPos = ulMp3FileCount-1;
+				else songListPos--;
+				flagOnChangeBody = W_CHANGE;
+mPlayer.c (mplayer):443
+				if (songListPos>= ulMp3FileCount) songListPos = 0;
+				else songListPos++;
+				flagOnChangeBody = W_CHANGE;
+mPlayer.c (mplayer):983
+	UARTprintf("txt %d 	mp3 %d \n",ulTxtFileCount,ulMp3FileCount);
+	UARTprintf("%s \n",txt_file_list[0]);
+//	internet_radio();
+Windows.c (mplayer):273
+	songListSize = ulMp3FileCount;
+	//songListPos = current_position;
+	// Detect the begining of the show list
